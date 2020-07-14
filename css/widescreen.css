@@ -1,0 +1,65 @@
+#navbar{
+  background: var(--primary-color);
+}
+
+/* Seaction: Header */
+#showcase{
+  margin-top: -4.3rem;
+  background: url('../img/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: var(--black-color);
+}
+
+#showcase .showcase-container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 2rem;
+  justify-content: right;
+}
+
+.container-text{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 800px;
+  margin: 0 1rem;
+}
+
+.large-heading{
+  font-size: 3rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.02rem;
+  font-family: var(--primary-font);
+
+}
+
+.lead{
+  font-size: 1.2rem;
+  margin-bottom: 0.1rem;
+  font-family: var(--primary-font);
+  letter-spacing: 3px;
+}
+
+.lead-1{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  font-family: var(--secondary-font);
+}
+
+.lead-2{
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  font-family: var(--primary-font);
+}
+
+.bold{
+  font-weight: bold;
+  color: var(--black-color);
+  font-family: var(--primary-font);
+  font-size: 1.3rem;
+}
